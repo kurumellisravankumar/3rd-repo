@@ -1,0 +1,97 @@
+@import "colors.scss";
+
+.wrapper-2 {
+    display: flex;
+    flex-direction: column;
+    // height: 100vh;
+    // width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        margin: 5vmax auto;
+        font: 100 3vmax $text1;
+        color: $f-clr;
+    }
+
+    .accordion1 {
+        // width: 500px;
+
+        .item1 {
+            background: #fff;
+            margin-bottom: 5px;
+            padding: 10px 20px;
+            width: 35vmax;
+
+            .title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: red;
+                cursor: pointer;
+            }
+
+            .content {
+                max-height: 0;
+                overflow: hidden;
+                transition: all 0.8s ease-in-out;
+                color: blue;
+            }
+
+            .content-show {
+                height: auto;
+                color: blue;
+                max-height: 999999;
+                transition: all 5s;
+            }
+
+        }
+    }
+}
+.wrapper-3 {
+    display: flex;
+    flex-direction: column;
+    // height: 100vh;
+    // width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+ 
+
+    .accordion2 {
+        // width: 500px;
+
+        .item2 {
+            background: #fff;
+            margin-bottom: 5px;
+            padding: 10px 20px;
+            width: 35vmax;
+
+            .title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: red;
+                cursor: pointer;
+                h2{
+                   font-size:1.5rem ; 
+                }
+            }
+
+            .content2 {
+                max-height: 0;
+                overflow: hidden;
+                transition: all 0.8s ease-in-out;
+                color: blue;
+            }
+
+            .content-show2 {
+                height: auto;
+                color: blue;
+                max-height: 999999;
+                transition: all 5s;
+            }
+
+        }
+    }
+}

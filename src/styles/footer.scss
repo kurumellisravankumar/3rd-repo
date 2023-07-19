@@ -1,0 +1,111 @@
+@import "./colors.scss";
+
+footer {
+    background-color: $bg-color;
+    width: 100%;
+    padding: 1rem;
+
+
+    .footer-container {
+        width: 98%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1.5vmax;
+        align-items: center;
+        // justify-content: space-evenly;
+        border-bottom: 1px solid #000000;
+
+
+
+
+        p {
+            font: 100 0 .9vmax $text1;
+        }
+
+        a {
+            color: rgba($color: #000000, $alpha: 1.0);
+            font: 100 0.8vmax $text1;
+            ;
+        }
+
+
+        .foot-logo {
+            width: 50%;
+
+
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .row1 {
+            height: 10vmax;
+            width: 20vmax;
+            margin: 1vmax;
+        }
+
+        .row2 {
+            display: flex;
+            flex-direction: column;
+            width: 20vmax;
+            text-align: justify;
+            margin: 1vmax;
+
+            h6 {
+                font-size: 1rem;
+            }
+
+            .footer-links {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        .row3 {
+            display: flex;
+            flex-direction: column;
+            width: 20vmax;
+            text-align: justify;
+            margin: 1vmax;
+
+            h6 {
+                font-size: 1rem;
+            }
+
+            .footer-links {
+                display: flex;
+                flex-direction: column;
+            }
+
+        }
+
+        .row4 {
+            height: 12vmax;
+            width: 20vmax;
+            margin: 1vmax;
+
+            h6 {
+
+                font-size: 1rem;
+            }
+
+            .icons {
+                margin: 1rem 0;
+                width: 30%;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+
+    .copy {
+        width: fit-content;
+        margin: 1rem auto;
+
+        P {
+            font-size: 0.8rem;
+        }
+    }
+}
