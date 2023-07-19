@@ -1,0 +1,157 @@
+@import "colors.scss";
+
+
+header {
+    display: flex;
+    // justify-content: space-between;
+    padding: 0 3vmax;
+    align-items: center;
+    height: 4vmax;
+    background: $bg-color;
+    width: 90vmax;
+    margin: 0 auto;
+    border-radius: 0 40px 0 40px;
+    top: 1rem;
+    position: sticky;
+    z-index: 10;
+
+
+    >.logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10vmax;
+        // background:#ffffff;
+        // border-radius: 50%;
+        // border: 0.1rem solid $main;
+        padding: 0.1vmax 0;
+
+        img {
+            width: 100%;
+            animation: logo 1s infinite alternate;
+        }
+    }
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            width: 35vmax;
+
+
+            a {
+                font: 400 1vmax $text1;
+                color: $main;
+
+                &:hover {
+                    text-shadow: PX 0PX 0PX rgba($color: #000000, $alpha: 1.0);
+                }
+            }
+        }
+    }
+
+    .login-btn {
+        position: absolute;
+        right: 3rem;
+
+        button {
+            width: 15vmax;
+            height: 2vmax;
+            border-radius: 18px;
+            animation: login-btn 1s infinite alternate;
+            background-color: $btn-clr;
+            border: none;
+
+            a {
+                font: 900 0.8vmax $text1;
+                color: $main;
+            }
+        }
+    }
+
+    .menu-btn {
+        display: none;
+        margin: 0 1rem;
+    }
+
+}
+
+@keyframes login-btn {
+    to {
+        transform: scale(1.1);
+    }
+
+
+}
+
+@keyframes logo {
+    to {
+        transform: scale(1.1);
+    }
+
+
+}
+
+
+// header{
+//       top: 0rem;
+//         position: sticky;
+//         z-index: 10;
+//         background: #fff;
+//     .logo{
+//         a{
+//             img{
+//                 width: 10rem;
+//             }
+//         }
+//     }
+//     // position: relative;
+//     padding: 0.2rem;
+//     .navbar{
+//         width: 100%;
+//         height: 60px;
+//         max-width: 1200px;
+//         margin: 0 auto;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+
+
+//         .links{
+//             display: flex;
+//             gap: 2rem;
+//         }
+
+//         .toogle-btn{
+//             font-size: 1.5rem;
+//             cursor: pointer;
+//             display: none;
+//         }
+// .login-btn{
+//     background: #772323;
+//     padding: 0.5rem 1rem;
+//     border: none;
+//     outline: none;
+//     border-radius: 20px;
+//     font-size: 0.8rem;
+//     font-weight: bold;
+//     cursor: pointer;
+// }
+//     }
+
+// }
+
+
+// @media (max-width:850px) {
+//    header{
+//     .navbar{
+//         .links,.login-btn{
+//             display: none;
+
+//         }
+// .toogle-btn{
+//     display: block;
+// }
+//     }
+//    }
+// }
