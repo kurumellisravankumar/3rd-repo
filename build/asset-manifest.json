@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3be11e81.css",
+    "main.js": "/static/js/main.b1f1fae8.js",
+    "static/media/4.jpg": "/static/media/4.744c04ce9474b672fd36.jpg",
+    "static/media/5.jpg": "/static/media/5.543e00d9d80bb6739a92.jpg",
+    "static/media/map.png": "/static/media/map.f091287c48abde312a3a.png",
+    "static/media/3.jpg": "/static/media/3.3fdefec6499fad8a4bc7.jpg",
+    "static/media/1.png": "/static/media/1.46ecd4bc43716d49f4f9.png",
+    "static/media/6.Jpg": "/static/media/6.6a688a9076d29246f9d7.Jpg",
+    "static/media/2.png": "/static/media/2.4020e26f4c1198db935b.png",
+    "static/media/PG-card.png": "/static/media/PG-card.0f45bf5e2aaf8df72201.png",
+    "static/media/c1.png": "/static/media/c1.586b5188940aaa52b57d.png",
+    "static/media/MBA-card.png": "/static/media/MBA-card.3be3339eb39b22201c03.png",
+    "static/media/UG-card.png": "/static/media/UG-card.a9be07efb7de5a61ff18.png",
+    "static/media/langdingbg.png": "/static/media/langdingbg.a88e6edfa5ded70e84a8.png",
+    "static/media/iit.png": "/static/media/iit.44f13ce6f4737e2350c8.png",
+    "static/media/mission.jpg": "/static/media/mission.ee284000a1713dcafb81.jpg",
+    "static/media/c2.png": "/static/media/c2.5d3574b21db8902271bf.png",
+    "static/media/c3.png": "/static/media/c3.ef1276ed49bce42f4ba5.png",
+    "static/media/b1.png": "/static/media/b1.4a50d8abec34d22932c6.png",
+    "static/media/CA-card.png": "/static/media/CA-card.b3e1c0078eb620a9359b.png",
+    "static/media/logo.png": "/static/media/logo.8618a543e8680bdda92e.png",
+    "static/media/vision.png": "/static/media/vision.85180da9861b69bdc468.png",
+    "index.html": "/index.html",
+    "main.3be11e81.css.map": "/static/css/main.3be11e81.css.map",
+    "main.b1f1fae8.js.map": "/static/js/main.b1f1fae8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3be11e81.css",
+    "static/js/main.b1f1fae8.js"
+  ]
+}
